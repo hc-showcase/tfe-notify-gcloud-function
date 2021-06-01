@@ -25,7 +25,7 @@ def notify_rocket_chat(request):
 
     pprint(request_json)
 
-    if request_json and 'workspace_name' in request_json and 'workspace_name' != None:
+    if request_json and 'workspace_name' in request_json and 'workspace_name' != '':
         message = 'Plan started for workspace: {} by user: {}'.format(request_json['workspace_name'], request_json['run_created_by'])
 
         rocket = RocketChat('user', 'pw', server_url='https://open.rocket.chat')

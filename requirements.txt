@@ -1,0 +1,4 @@
+google-cloud-error-reporting==1.1.2
+click>=7.0,<8.0
+flask<2.0,>=1.0
+rocketchat_API

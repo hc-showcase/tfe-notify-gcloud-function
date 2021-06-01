@@ -1,5 +1,3 @@
-import sys
-
 # [START functions_helloworld_http]
 # [START functions_http_content]
 from flask import escape
